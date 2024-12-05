@@ -35,7 +35,8 @@ import yaml
 from PIL import Image
 import torch.utils.data
 from scipy.stats import entropy
-from moviepy.editor import AudioFileClip
+#from moviepy.editor import AudioFileClip
+from moviepy import AudioFileClip
 from torch.nn.utils.rnn import pad_sequence
 from torch.types import Number
 from torch.autograd import Variable
