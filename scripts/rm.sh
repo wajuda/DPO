@@ -1,17 +1,17 @@
 MODEL_NAME_OR_PATH="../../models/Qwen-0.5B-Instruct" # model path
 
 TRAIN_DATASETS="../../datasets/PKU-SafeRLHF-single-dimension" # dataset path
-TRAIN_TEMPLATE="PKUSafeRLHF" # dataset template
+TRAIN_TEMPLATE="HOMEWORK" # dataset template
 TRAIN_SPLIT="train" # split the dataset
 
 EVAL_DATASETS="../../datasets/PKU-SafeRLHF-single-dimension" # dataset path
-EVAL_TEMPLATE="PKUSafeRLHF" # dataset template
+EVAL_TEMPLATE="HOMEWORK" # dataset template
 EVAL_SPLIT="test" # split the dataset
 
 OUTPUT_DIR="../output/rm" # output dir
 
 # For wandb online logging
-export WANDB_API_KEY=""
+export WANDB_API_KEY="07da9c1bcdb5466fa5a67d490b144bc99925d2c2"
 
 # Source the setup script
 source ./setup.sh
